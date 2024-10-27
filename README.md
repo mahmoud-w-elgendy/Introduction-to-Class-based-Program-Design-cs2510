@@ -22,4 +22,5 @@ So, you can:
 
 - **formatting.xml**: The code formatting configuration used in the course, created in Eclipse and exported for your convenience. You can import it into your IDE of choice.
 
-
+## Before you run the code
+If you decide to run the code from Intellij, you need to download the library files from the course website [here](https://course.ccs.neu.edu/cs2510sp22/Documentation.html) and put the files `tester.jar` and `javalib.jar` in the `jars` folder.
