@@ -1,0 +1,9 @@
+;; An Object is a [Listof PropVal]
+;; A PropVal is a (list Name Value)
+;; A Name is a symbol
+
+(define my-pos1 (list (list 'x 3) (list 'y 4)))
+(define my-pos2 (list (list 'x 6) (list 'y 8)))
+
+(define (dot obj prop)
+)
