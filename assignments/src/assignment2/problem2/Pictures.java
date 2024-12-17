@@ -139,7 +139,7 @@ class Beside implements IOperation {
   }
 
   public IOperation mirror() {
-    return new Beside(picture2, picture1);
+    return new Beside(picture2.mirror(), picture1.mirror());
   }
 
   public String pictureRecipe(int depth) {
